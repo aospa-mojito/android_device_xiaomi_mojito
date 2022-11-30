@@ -155,6 +155,7 @@ PRODUCT_PACKAGES += \
 # Common QTI components
 TARGET_COMMON_QTI_COMPONENTS += \
     adreno \
+    av \
     telephony \
     wlan
 
@@ -265,8 +266,6 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-    libavservices_minijail \
-    libavservices_minijail.vendor \
     libarbitrarybytes \
     libc2dcolorconvert \
     libplatformconfig \

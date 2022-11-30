@@ -154,6 +154,7 @@ PRODUCT_PACKAGES += \
 
 # Common QTI components
 TARGET_COMMON_QTI_COMPONENTS += \
+    telephony \
     wlan
 
 # Consumer IR
